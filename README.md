@@ -91,4 +91,31 @@ p/s:
 
 ![image](https://github.com/user-attachments/assets/22185ed2-c91f-48df-9595-c27496b30ca8)
 
-## 
+## TRIGGER 
+## THÊM 1 TRƯỜNG PHI CHUẨN LÀ TONGTIEN VÀO BẢNG DATPHONG
+
+![image](https://github.com/user-attachments/assets/8f86a88b-7ce8-4a18-9d80-1df55d6d48c6)
+
+## CÁCH ĐỂ TẠO TRIGGER 
+
+MỞ BẢNG CẦN THÊM TRIGGER SAU ĐÓ :
+
+![image](https://github.com/user-attachments/assets/3669f538-fff1-4004-a5ce-0906bc5ba512)
+
+## MỤC TIÊU CỦA TRIGGER:
+
+TRIGGER NÀY ĐƯỢC SỬ DỤNG ĐỂ TỰ ĐỘNG TÍNH TOÁN TIỀN PHÒNG (TONGTIEN) MỖI KHI CÓ NGƯỜI:
+
++ ĐẶT PHÒNG MỚI (INSERT)
++ CẬP NHẬT THÔNG TIN PHÒNG (UPDATE)
+
+## CÁCH TÍNH VÀ CODE:
+
+![image](https://github.com/user-attachments/assets/3a1e2e01-2d87-4a2f-83df-ff64a4b251c0)
+
+## LỢI ÍCH KHI DÙNG TRIGGER NÀY:
+
+
++ Tự động | Không cần nhập TongTien thủ công. Giảm sai sót.
++ Luôn đúng | Tự động tính lại mỗi khi thông tin phòng/ngày thay đổi.
++ Tăng tốc | Giảm tính toán phía ứng dụng, xử lý nhanh trong SQL Server.
